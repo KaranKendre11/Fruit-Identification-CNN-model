@@ -2,7 +2,7 @@ from keras.models import load_model
 from PIL import Image, ImageOps
 import numpy as np
 
-# Load the modelz
+# Load the models.
 model = load_model('cnn_from_scratch_fruits.hdf5')
 
 # Create the array of the right shape to feed into the keras model
